@@ -6,6 +6,8 @@
 #
 # Doona is a BED fork maintained by wireghoul ( www.justanotherhacker.com )
 # BED was written by mjm ( www.codito.de ) and snakebyte ( www.snake-basket.de )
+use FindBin;
+use lib $FindBin::Bin;
 use Getopt::Std;
 use Socket;
 use Config;
